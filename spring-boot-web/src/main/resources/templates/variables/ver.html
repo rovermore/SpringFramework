@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${title}"></title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"></link>
+</head>
+<body>
+<h1 class="color-red" th:text="${title}"></h1>
+<div class="color-blue" th:text="${result}"></div>
+<img th:src="@{/images/map.png}"></img>
+</body>
+</html>
